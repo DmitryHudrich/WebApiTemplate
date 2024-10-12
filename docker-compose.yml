@@ -2,7 +2,7 @@ services:
   web:
     build:
       context: ./BebraTemplate/
-      dockerfile: dockerfile
+      dockerfile: докерфайл
     ports:
       - "5000:8080"
     environment:
